@@ -1,0 +1,44 @@
+-Overview-
+
+This project implements a basic Binary Search Tree (BST) in C++. The BST supports the following operations:
+
+    Insert a node: Add a new node with a specified value.
+    Delete a node: Remove a node with a specified value.
+    Inorder Traversal: Print the tree's nodes in ascending order.
+
+-Code Features-
+
+    createNode(int val): Creates a new node with the given value.
+    insertNode(struct node *node, int key): Inserts a node into the BST.
+    deleteNode(struct node *root, int key): Deletes a node from the BST.
+    traverseInOrder(struct node *root): Performs an inorder traversal of the BST, printing the node values.
+
+-Usage-
+    
+    1.Compile the Code: Save the code to a file named main.cpp and compile using a C++ compiler:
+
+    bash
+        Copy code
+         "g++ -o bst main.cpp"
+        Run the Executable:
+
+    bash
+        Copy code
+            "./bst"
+        Input Commands:
+
+    2.To insert a node, input 1 followed by the value.
+
+    3.To delete a node, input 2 followed by the value.
+
+    4.To end input and see the tree's inorder traversal, input -1.
+    
+    Example:
+
+        plaintext
+            Copy code
+            1 10
+            1 20
+            2 10
+            -1
+    This sequence inserts nodes with values 10 and 20, deletes the node with value 10, and prints the remaining tree nodes in ascending order.
