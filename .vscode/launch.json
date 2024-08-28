@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/admin/Data-Structures-and-Algorithm-In-Class-Labs/BinarySearchTree.cpp",
-      "program": "c:/Users/admin/Data-Structures-and-Algorithm-In-Class-Labs/BinarySearchTree.cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/admin/Data-Structures-and-Algorithm-In-Class-Labs/BinarySearchTree",
+      "program": "c:/Users/admin/Data-Structures-and-Algorithm-In-Class-Labs/BinarySearchTree/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
